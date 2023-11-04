@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+body {
+    height: 100vh;
+    background: #002c55;
+    font-family: 'Ubuntu', sans-serif;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    color: #ffff;
+    overflow: hidden;
+}
+
+.live-prices {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-family: 'Ubuntu', sans-serif;
+    box-shadow: 0 4px 8px -4px black;
+}
+
+.live-prices .title {
+    position: absolute;
+    background: #d8d3b9;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding:0 20px;
+    color: #002c55;
+    font-weight: bold;
+    z-index: 200;
+    font-size: 20px;
+}
+
+.live-prices ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    animation: scroll 10s infinite linear;
+}
+
+.live-prices ul li {
+    white-space: nowrap;
+    padding: 10px 24px;
+    color: #ffffff;
+    position: relative;
+}
+
+.live-prices ul li::after {
+    content:"";
+    width: 1px;
+    height: 100%;
+    background: #b8b8b8;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.live-prices ul li:last-child::after {
+    display: none;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(10%);
+    }
+
+    to {
+        transform: translateX(-1083px);
+
+    }
+}
+
+h1 {
+    top: 200px;
+    font-size: 44px;
+    color: #d8d3b9;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#coingecko {
+    font-size: 25px;
+}
+
+#main-logo {
+    width: 30%;
+    length: auto;
+}
