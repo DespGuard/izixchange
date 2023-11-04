@@ -41,3 +41,6 @@ $.ajax(price).done(function (response){
     adaeur.innerHTML = response.cardano.eur;
     dogeeur.innerHTML = response.dogecoin.eur;
 });
+
+
+
