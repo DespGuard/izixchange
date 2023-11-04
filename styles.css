@@ -26,7 +26,7 @@ body {
     height: 100%;
     display: flex;
     align-items: center;
-    padding:0 20px;
+    padding:0 14px;
     color: #002c55;
     font-weight: bold;
     z-index: 200;
@@ -74,17 +74,17 @@ body {
 
 h1 {
     top: 200px;
-    font-size: 44px;
+    font-size: 36px;
     color: #d8d3b9;
     margin-left: 10%;
     margin-right: 10%;
 }
 
 #coingecko {
-    font-size: 25px;
+    font-size: 24px;
 }
 
 #main-logo {
-    width: 30%;
+    width: 40%;
     length: auto;
 }
