@@ -10,6 +10,8 @@ body {
     color: #ffff;
 }
 
+/* Scrolling Bar w/ Prices */
+
 .live-prices {
     position: fixed;
     top: 0;
@@ -72,6 +74,8 @@ body {
     }
 }
 
+/* Converter */
+
 h1 {
     margin-top: 20%;
     font-size: 36px;
@@ -95,40 +99,25 @@ h1 {
     height: auto;
 }
 
-
-
-
-
-
 div {
     display: block;
 }
 
-header {
-    background: none;
-    padding-top: 50px;
-    margin-bottom: 5px;
-}
-    
-
 .container {
-    width: 600px;
+    width: 800px;
     margin: auto;
-    padding: auto;
     padding-bottom: 20px;
-    padding-top: 15 px;
     height: auto;
     display: block;
     border-radius: 8px;
     background: #002c55;
     box-shadow: rgba(0, 0, 0, 0.5) 0px 13px 27px -5px, rgba(0, 0, 0, 0.5) 0px 8px 16px -8px;
-
 }
 
 input[type=text] {
-    width: 82%;
+    width: 79%;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: -10px;
     display: block;
     font-size: 1rem;
@@ -189,7 +178,7 @@ select:focus {
     -webkit-box-align: center;
     align-items: center;
     min-width: 0px;
-    width: 87%;
+    width: 83%;
     cursor: pointer;
     margin: auto;
     outline-offset: 4px;
