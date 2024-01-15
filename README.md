@@ -1,2 +1,2 @@
 # izixchange
-A simple cryptocurrency converter that provides prices, charts, and market cap
+A simple cryptocurrency converter that allows you to convert Fiat into Crypto
